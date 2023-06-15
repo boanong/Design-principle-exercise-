@@ -20,7 +20,7 @@ nav {
   
   .left-section a,
   .right-section a {
-    margin: 0 10px;
+    margin: 0 30px;
     text-decoration: none;
     color: black;
   }
@@ -29,14 +29,17 @@ nav {
     font-size: 16px;
   }
   
+.center-section {
+    margin-right: 50px;
+
+}
+
   .center-section a {
     font-family: Oswald, sans-serif;
     font-size: 35px;
-    font-weight: 450;
+    font-weight: 500;
     text-decoration: none;
     color: black;
-
-
   }
   
 .right-section{
@@ -49,10 +52,137 @@ nav {
     font-size: 10pt;
     border-radius: 50px;
     color: white;
-
   }
   
 
-  
+  .hero-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    padding: 100px;
+  } 
 
+  .text-and-button {
+    display: block;
+  }
+
+  .see-more-button {
+    padding: .4rem .9rem;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .trending-container {
+    background-color: rgb(146, 143, 143);
+    margin-bottom: 0;
+  }
+
+  .trending {
+    font-family: Oswald, sans-serif;
+    font-size: 60px;
+  }
+
+
+  .left-text {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .hero-top {
+    height: 45vh;
+  }
+
+  .banner-image {
+    background-image: url('./Assets/images/woman.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 85%;
+    margin: auto;
+  }
+
+  .hero-div {
+    width: 30%;
+    padding-left: 75px;
+  }
+
+  .hero-caption {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 8px;
+    font-weight: 900;
+    padding: 50px;
+    font-size: 20pt;
+    
+  }
+
+  .banner-image:hover {
+    opacity: 5;
+  }
   
+.micheal {
+    font-weight: 950px;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+.economy {
+    padding: .4rem .9rem;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-width: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.economy:hover {
+    background-color: black;
+    color: white;
+}
+
+.content-section {
+    background-color: aqua;
+    padding-top: 20px;
+}
+
+.left-section-div {
+    background-color: blue;
+    height: 200vh;
+    width: 50%;
+    padding: 10px;
+    margin-left: 90px;
+}
+
+.spotlight-woman {
+    height: 50vh;
+    width: 25vw;
+}
+
+.story-caption {
+    font-family: Oswald, sans-serif;
+    padding-left: 15px;
+}
+
+.full-article {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.letter-a{
+    font-family: Oswald, sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+    position: relative;
+    padding-top: 10px;
+
+}
