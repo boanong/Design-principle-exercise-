@@ -20,7 +20,7 @@ nav {
   
   .left-section a,
   .right-section a {
-    margin: 0 30px;
+    margin: 0 100px;
     text-decoration: none;
     color: black;
   }
@@ -30,7 +30,7 @@ nav {
   }
   
 .center-section {
-    margin-right: 50px;
+    margin-right: 200px;
 
 }
 
@@ -43,7 +43,7 @@ nav {
   }
   
 .right-section{
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
   .news {
@@ -130,7 +130,7 @@ nav {
 .button-div {
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 40px;
     gap: 10px;
 
 }
@@ -151,38 +151,143 @@ nav {
 }
 
 .content-section {
-    background-color: aqua;
     padding-top: 20px;
 }
 
-.left-section-div {
-    background-color: blue;
-    height: 200vh;
-    width: 50%;
-    padding: 10px;
-    margin-left: 90px;
-}
-
-.spotlight-woman {
-    height: 50vh;
-    width: 25vw;
-}
-
-.story-caption {
+.container {
+    overflow: hidden;
+    padding-left: 100px;
+    width: 60%;
+    height: 150vh;
+  }
+  
+  img {
+    float: left; 
+    margin-right: 20px; 
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
     font-family: Oswald, sans-serif;
-    padding-left: 15px;
-}
 
-.full-article {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.letter-a{
-    font-family: Oswald, sans-serif;
-    font-weight: 900;
-    font-size: 30pt;
-    position: relative;
+  }
+  
+  .text {
     padding-top: 10px;
+    line-height: 30px;
+    
+    
+  }
+
+.afro-woman-image {
+    height: 40vh;
+    width: 20vw;
+}
+.right-section-div {
+    background-color: rgb(231, 227, 227);
+    width: 30%;
+    height: 150vh;
+    margin-right: 100px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.agbor {
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.popular {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Oswald, sans-serif;
+    text-align: center;
 
 }
+
+.stories {
+    width: 10vw;
+    height: 160px;
+}
+
+.story-image {
+    height: 18vh;
+    width: 10vw;
+    border-radius: 8px;
+}
+
+.story-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+
+}
+
+.images-and-headlines {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding-left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.connect {
+    padding-top: 20px;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+
+.connect-text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.connect-container {
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    position: relative;
+   }
+   
+   .wave {
+    background-color: #fff;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    clip-path: url(#wave);
+   }
+   
+   .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+   }
+   
+   .content p {
+    margin-bottom: 10px;
+   }
+   
+   .content a {
+    color: #fff;
+    text-decoration: underline;
+   }
+   
+   svg {
+    display: none;
+   }
+   
+   
