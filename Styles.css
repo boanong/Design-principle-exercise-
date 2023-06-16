@@ -217,8 +217,8 @@ nav {
 
 .stories:hover {
   cursor: pointer;
-    transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
 
 }
 .story-image {
@@ -261,7 +261,7 @@ nav {
 }
 
 footer {
-    background-color: #333;
+    background-color: #393838;
     color: #fff;
     padding: 50px 0;
     position: relative;
