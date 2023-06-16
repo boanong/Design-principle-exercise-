@@ -170,14 +170,11 @@ nav {
     font-size: 24px;
     font-weight: bold;
     font-family: Oswald, sans-serif;
-
   }
   
   .text {
     padding-top: 10px;
     line-height: 30px;
-    
-    
   }
 
 .afro-woman-image {
@@ -208,18 +205,27 @@ nav {
     font-weight: bold;
     font-family: Oswald, sans-serif;
     text-align: center;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .stories {
     width: 10vw;
     height: 160px;
+    
 }
 
+.stories:hover {
+  cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+
+}
 .story-image {
     height: 18vh;
     width: 10vw;
     border-radius: 8px;
+    z-index: 3;
 }
 
 .story-title {
