@@ -261,7 +261,7 @@ nav {
 }
 
 footer {
-    background-color: #333;
+    background-color: #313030;
     color: #fff;
     padding: 50px 0;
     position: relative;
@@ -296,4 +296,73 @@ footer {
     display: none;
    }
    
-   
+   @media screen and (max-width: 768px) {
+    /* Insert your CSS styles here */
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .left-section {
+      margin-bottom: 20px;
+    }
+  
+    .center-section {
+      margin-bottom: 20px;
+    }
+  
+    .right-section {
+      margin-bottom: 20px;
+    }
+  
+    .hero-top {
+      padding: 50px 20px;
+    }
+  
+    .trending {
+      font-size: 2rem;
+    }
+  
+    .left-text {
+      font-size: 0.9rem;
+    }
+  
+    .see-more-button {
+      font-size: 0.8rem;
+      padding: 10px 20px;
+    }
+  
+    .banner-image {
+      height: 200px;
+    }
+  
+    .hero-caption {
+      font-size: 1.5rem;
+    }
+  
+    .button-div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .economy {
+      font-size: 0.8rem;
+      padding: 5px 10px;
+      margin: 5px;
+    }
+  
+    .content-section {
+      padding: 50px 20px;
+    }
+  
+    .title {
+      font-size: 1.2rem;
+    }
+  
+    .text {
+      font-size: 0.9rem;
+    }
+  }
